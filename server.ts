@@ -1,6 +1,7 @@
 import express from "express";
 import path from "path";
 import dotenv from "dotenv";
+import { GoogleGenAI } from "@google/genai";
 
 dotenv.config();
 
@@ -18,8 +19,6 @@ function getAIClient() {
   }
   
   if (!aiClient) {
-    // Dynamically require or import to adhere to lazy load patterns
-    const { GoogleGenAI } = require("@google/genai");
     aiClient = new GoogleGenAI({
       apiKey: process.env.GEMINI_API_KEY,
       httpOptions: {
@@ -131,7 +130,7 @@ Tulis hasilnya dalam Bahasa Indonesia dengan format JSON terstruktur:
 async function initServer() {
   if (process.env.NODE_ENV !== "production") {
     // Dynamic import to avoid loading vite on production starts
-    const { createServer: createViteServer } = require("vite");
+    const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
