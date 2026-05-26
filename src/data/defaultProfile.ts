@@ -1,16 +1,16 @@
 import { ProfileData } from "../types";
 
 export const defaultProfile: ProfileData = {
-  name: "Farhan Maulana",
+  name: "Ryan Arya Saputra",
   title: "Informatics Student & Full-Stack Developer",
   university: "Universitas Indonesia",
   gpa: "3.85",
   semester: "6",
   avatarUrl: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=400",
   bio: "Mahasiswa S1 Teknik Informatika yang berfokus pada pengembangan aplikasi web full-stack, kecerdasan buatan, dan optimasi algoritma. Senang memecahkan tantangan algoritma kompleks dan membangun solusi digital yang berorientasi pada pengguna.",
-  email: "farhan.maulana@cs.ui.ac.id",
-  github: "https://github.com/farhan-mln",
-  linkedin: "https://linkedin.com/in/farhanmaulana",
+  email: "ryan.arya@cs.ui.ac.id",
+  github: "ryan-arya",
+  linkedin: "ryan-arya",
   skills: [
     { name: "React (Vite)", category: "Frontend", level: 90 },
     { name: "TypeScript", category: "Frontend", level: 85 },
@@ -29,7 +29,7 @@ export const defaultProfile: ProfileData = {
       description: "Aplikasi interaktif berbasis web untuk memvisualisasikan cara kerja algoritma pengurutan populer (Bubble, Quick, Merge, & Insertion Sort) secara real-time dengan kontrol kecepatan variabel dan visualisasi stack frame.",
       techStack: ["React", "Tailwind CSS", "TypeScript", "Framer Motion"],
       simulationType: "sorting",
-      githubUrl: "https://github.com/farhan-mln/sortcraft",
+      githubUrl: "https://github.com/ryan-arya/sortcraft",
       liveUrl: "https://sortcraft-demo.vercel.app"
     },
     {
@@ -38,7 +38,7 @@ export const defaultProfile: ProfileData = {
       description: "Visualisator grafis interaktif untuk melakukan operasi pohon biner (Insert, Delete, Search) beserta visualisasi traversal Pre-order, In-order, dan Post-order secara real-time.",
       techStack: ["React", "D3.js", "TypeScript"],
       simulationType: "bst",
-      githubUrl: "https://github.com/farhan-mln/interactive-bst"
+      githubUrl: "https://github.com/ryan-arya/interactive-bst"
     },
     {
       id: "p3",

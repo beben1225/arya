@@ -217,7 +217,7 @@ export default function TerminalConsole({ profile }: TerminalConsoleProps) {
       <div className="flex items-center justify-between px-4 py-2.5 border-b border-white/10 bg-black py-3 select-none">
         <div className="flex items-center gap-2">
           <div className="w-2.5 h-2.5 bg-white/20" />
-          <span className="text-[10px] tracking-widest uppercase font-bold font-mono opacity-60">farhan@cs-dev-shell</span>
+          <span className="text-[10px] tracking-widest uppercase font-bold font-mono opacity-60">ryan@cs-dev-shell</span>
         </div>
         <div className="flex items-center gap-1">
           <Terminal className="w-3.5 h-3.5 opacity-60" />
